@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible and SEO-Friendly Basic Web Page</title>
+  <meta name="description" content="A basic web page demonstrating semantic HTML5, accessibility, and SEO best practices." />
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Welcome to Our Accessible and SEO-Friendly Web Page</h1>
+    <nav role="navigation" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#main-content">Skip to main content</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <article aria-labelledby="about-heading" id="about">
+      <h2 id="about-heading">About Us</h2>
+      <p>We are committed to creating websites that are accessible, well-structured, and optimized for search engines. Our mission is to provide meaningful content to all users, including those using assistive technologies.</p>
+    </article>
+
+    <section aria-labelledby="services-heading" id="services">
+      <h2 id="services-heading">Our Services</h2>
+      <ul>
+        <li>Web Accessibility Consulting</li>
+        <li>SEO Strategy Development</li>
+        <li>Semantic HTML Training</li>
+      </ul>
+    </section>
+  </main>
+
+  <aside role="complementary" aria-labelledby="news-heading">
+    <h2 id="news-heading">Latest News</h2>
+    <p>Stay tuned for upcoming workshops on web accessibility and SEO best practices.</p>
+  </aside>
+
+  <footer role="contentinfo" id="contact">
+    <h2>Contact Us</h2>
+    <address>
+      Email: <a href="mailto:berbazali95@gmail.com">berbazali95@gmail.com</a><br />
+      Phone: <a href="tel:+254713240885">+254 (713) 240-885</a><br />
+      Address: Hotel Sapphire-Mwembe Tayari Rd, Mombasa, Kenya  
+    </address>
+  </footer>
+
+</body>
+</html>
